@@ -1,0 +1,71 @@
+{
+  "name": "nftbuddies_minting_dapp",
+  "version": "1.0.0",
+  "description": "HashLips minting dapp is a quick and easy way to connect your smart contract and start minting NFTs.",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "canvas": "^2.8.0",
+    "express": "^4.17.3",
+    "gif-encoder-2": "^1.0.5",
+    "ipfs": "^0.62.2",
+    "ipfs-car": "^0.7.0",
+    "ipfs-http-client": "^56.0.2",
+    "mime": "^3.0.0",
+    "nft.storage": "^6.2.0",
+    "node-fetch": "^2.6.1",
+    "oath": "^1.0.0",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-awesome-reveal": "^3.8.1",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-scripts": "4.0.3",
+    "react-tsparticles": "^2.0.6",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "save": "^2.5.0",
+    "sha1": "^1.1.1",
+    "shelljs": "^0.8.5",
+    "styled-components": "^5.3.0",
+    "tsparticles-preset-sea-anemone": "^2.0.6",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.5.1",
+    "web3-eth-contract": "^1.5.2"
+  },
+  "pkg": {
+    "assets": [
+      "layers/**/*",
+      "node_modules/**/*",
+      "src/**/*"
+    ]
+  },
+  "author": "Alexander Charles Caradonna (Alpackle)",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "generate": "node index.js",
+    "generateArt": "node artGen_Build.js",
+    "rarity": "node utils/rarity.js",
+    "preview": "node utils/preview.js",
+    "pixelate": "node utils/pixelate.js",
+    "update_info": "node utils/update_info.js",
+    "preview_gif": "node utils/preview_gif.js",
+    "generate_metadata": "node utils/generate_metadata.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
