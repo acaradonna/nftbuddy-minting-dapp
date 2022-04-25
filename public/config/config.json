@@ -1,0 +1,19 @@
+{
+  "CONTRACT_ADDRESS": "0x8E8fD30F13e8B0711De6d5799729e8464f2B6cED",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x8E8fD30F13e8B0711De6d5799729e8464f2B6cED",
+  "NETWORK": {
+    "NAME": "rinkeby",
+    "SYMBOL": "ETH",
+    "ID": 4
+  },
+  "NFT_NAME": "NFTBuddies",
+  "SYMBOL": "BUD",
+  "MAX_SUPPLY": 10069,
+  "WEI_COST": 42000000000000000,
+  "DISPLAY_COST": 0.0420,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea (Testnet)",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/nftbuddies",
+  "SHOW_BACKGROUND": false,
+  "NFT_STORAGE_TOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDk3Mjg5RUY3MDdjRDRFQTU2YTFDNjEyM0Y2M0VkODFlMDczMUFhQjAiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY1MDc4NDMxMjEzNywibmFtZSI6Ik5GVEJ1ZGRpZXMgTWludGVyIn0.7uBBe60SWEbyxkgt5ywm0BFXDiBuhPHyfmu2qZiaTEg"
+}
